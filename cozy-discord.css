@@ -13,7 +13,7 @@
 	padding-top: 10px;
 }
 
-.osx-buttons, .titlebar {
+.osx-buttons {
 	display: none;
 }
 
@@ -82,11 +82,17 @@
 }
 
 .guilds-wrapper .guilds .guild.selected:before {
-	display: none;
+	height: 20px !important;
+   	margin: 0px;
+    	top: 16px !important;
+    	background: white;
+    	left: -7px;
+    	width: 5px;
 }
 
-.guilds-wrapper:hover .guilds .guild.selected:before {
-	display: block;
+.guilds-wrapper .guilds .guild.selected.unread:before {
+  height: 20px !important;
+  top: 16px !important;
 }
 
 .guilds-wrapper .guilds .guild.selected .guild-inner {
@@ -108,8 +114,11 @@
 	left: -13px;
 	width: 5px;
 	background: none;
-    border: 0px;
-    box-shadow: none;
+	color: #f04747;
+  	font-weight: 900;
+ 	font-style: italic;
+    	border: 0px;
+    	box-shadow: none;
 }
 
 .guilds-wrapper .guilds span.dms .guild {
@@ -118,28 +127,27 @@
 
 .guilds-wrapper .guilds .guild.unread:before {
 	margin: 0px;
-    background: white;
-    left: -7px;
-    height: 5px;
-    width: 5px;
-    top: 21px;
+    	background: white;
+    	left: -7px;
+    	height: 5px;
+    	width: 5px;
+    	top: 21px;
 }
-
 
 .new-messages-indicator.new-messages-indicator-mention {
 	color: #f04747;
-    overflow: hidden;
-    width: 10px;
-    height: 10px;
-    border-radius: 25px;
-    left: 5px;
-    top: 5px;
-
-    -webkit-transition: 200ms;
-    -moz-transition: 200ms;
-    -o-transition: 200ms;
-    -ms-transition: 200ms;
-    transition: 200ms;
+    	overflow: hidden;
+    	width: 25px;
+    	height: 10px;
+    	border-radius: 25px;
+    	left: -1px;
+    	top: 5px;
+		
+    	-webkit-transition: 200ms;
+    	-moz-transition: 200ms;
+    	-o-transition: 200ms;
+    	-ms-transition: 200ms;
+    	transition: 200ms;
 }
 
 .new-messages-indicator.new-messages-indicator-mention.bottom {
@@ -169,6 +177,15 @@
 /* ============================
 	CHANNEL LIST
 ============================ */
+
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+    height: 9px !important;
+    margin: 0px;
+    width: 5px;
+    top: 13px !important;
+    background: white;
+    left: 7px;
+}
 
 .guild-header header {
 	height: 45px;
