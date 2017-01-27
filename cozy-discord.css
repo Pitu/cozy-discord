@@ -26,6 +26,11 @@
 	width: 20px;
 }
 
+/* Fix for January 27th Canary update */
+.guilds-wrapper .guilds { padding: 18px 0 18px 15px; }
+.guilds-wrapper .scroller-wrap { width: 100px !important; }
+/* ================================== */
+
 .guilds-wrapper:hover {
 	-webkit-transition: 200ms;
     -moz-transition: 200ms;
