@@ -9,7 +9,7 @@
 	GUILD LIST
 ============================ */
 
-.platform-osx .guilds-wrapper {
+.platform-osx .guildsWrapper-5TJh6A {
 	padding-top: 10px;
 }
 
@@ -17,7 +17,7 @@
 	display: none;
 }
 
-.guilds-wrapper {
+.guildsWrapper-5TJh6A {
 	-webkit-transition: 200ms;
     -moz-transition: 200ms;
     -o-transition: 200ms;
@@ -27,11 +27,11 @@
 }
 
 /* Fix for January 27th Canary update */
-.guilds-wrapper .guilds { padding: 18px 0 18px 15px; }
-.guilds-wrapper .scroller-wrap { width: 100px !important; }
+.guildsWrapper-5TJh6A .guilds-1q_RqH { padding: 18px 0 18px 15px; }
+.guildsWrapper-5TJh6A .scrollerWrap-1IAIlv { width: 100px !important; }
 /* ================================== */
 
-.guilds-wrapper:hover {
+.guildsWrapper-5TJh6A:hover {
 	-webkit-transition: 200ms;
     -moz-transition: 200ms;
     -o-transition: 200ms;
@@ -40,19 +40,19 @@
 	width: 80px;
 }
 
-.guilds-wrapper .guild-separator:after {
+.guildsWrapper-5TJh6A .guildSeparator-1X4GQ1:after {
 	left: 30%;
 }
 
-.guilds-wrapper .guilds .friends-online, .guilds-wrapper .guilds .friends-icon {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .friendsOnline-_wi_fM, .guildsWrapper-5TJh6A .guilds-1q_RqH .homeIcon-1FoKUJ {
 	display: none;
 }
 
-.guilds-wrapper .guilds > .guild:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child {
 	height: 25px;
 }
 
-.guilds-wrapper .guilds > .guild:first-child:after {
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child:after {
 	content: "DM's";
 	font-size: 12px;
     text-transform: uppercase;
@@ -69,12 +69,12 @@
     left: 0px;
 }
 
-.guilds-wrapper .guilds > .guild:first-child .guild-inner {
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 {
 	height: 20px !important;
 	background-color: transparent !important;
 }
 
-.guilds-wrapper .guilds > .guild:first-child .guild-inner a {
+.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child .guildInner-3DSoA4 a {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -82,11 +82,11 @@
 	height: 20px;
 }
 
-.guilds-wrapper .guilds .guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
     width: 55px;
 }
 
-.guilds-wrapper .guilds .guild.selected:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq:before {
 	height: 20px !important;
    	margin: 0px;
     	top: 16px !important;
@@ -95,27 +95,27 @@
     	width: 5px;
 }
 
-.guilds-wrapper .guilds .guild.selected.unread:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq.unread-qLkInr:before {
   height: 20px !important;
   top: 16px !important;
 }
 
-.guilds-wrapper .guilds .guild.selected .guild-inner {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4 {
 	-webkit-border-radius: 25px !important;
     border-radius: 25px !important;
     /*border: 1px solid #333 !important;*/
 }
 
-.guilds-wrapper .guilds .guild > div:first-child {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ > div:first-child {
 	margin-left: 5px;
 }
 
-.guilds-wrapper .guilds button.guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH button.guild-1EfMGQ {
 	width: 50px !important;
 	margin-left: 5px !important;
 }
 
-.guilds-wrapper .guilds .guild .badge {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .badge-1GsMF2 .wrapper-232cHJ {
 	left: -13px;
 	width: 5px;
 	background: none;
@@ -126,11 +126,11 @@
     	box-shadow: none;
 }
 
-.guilds-wrapper .guilds span.dms .guild {
+.guildsWrapper-5TJh6A .guilds-1q_RqH span.dms-rcsEnV .guild-1EfMGQ {
 	height: 50px;
 }
 
-.guilds-wrapper .guilds .guild.unread:before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr:before {
 	margin: 0px;
     	background: white;
     	left: -7px;
@@ -139,7 +139,7 @@
     	top: 21px;
 }
 
-.new-messages-indicator.new-messages-indicator-mention {
+.unreadMentionsIndicatorTop-gA6RCh {
 	color: #f04747;
     	overflow: hidden;
     	width: 25px;
@@ -155,12 +155,12 @@
     	transition: 200ms;
 }
 
-.new-messages-indicator.new-messages-indicator-mention.bottom {
+.unreadMentionsIndicatorBottom-BXS58x {
 	bottom: 5px;
 	top: initial;
 }
 
-.guilds-wrapper:hover .new-messages-indicator.new-messages-indicator-mention {
+.guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorTop-gA6RCh {
 	top: 0;
     bottom: initial;
     width: 90%;
@@ -171,7 +171,7 @@
     border-radius: 0 0 4px 4px;
 }
 
-.guilds-wrapper:hover .new-messages-indicator.new-messages-indicator-mention.bottom {
+.guildsWrapper-5TJh6A:hover .unreadMentionsIndicatorBottom-BXS58x {
     -webkit-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
     top: initial;
