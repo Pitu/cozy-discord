@@ -1,0 +1,18 @@
+{
+  "name": "cozy-discord",
+  "version": "1.0.0",
+  "description": "Small and cozy theme for Discord",
+  "repository": "https://github.com/Pitu/cozy-discord.git",
+  "author": {
+    "name": "Pitu",
+    "email": "heyitspitu@gmail.com",
+    "url": "https://github.com/Pitu"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node-sass src/cozy-discord.scss dist/cozy-discord.css --output-style compressed --linefeed lf"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
